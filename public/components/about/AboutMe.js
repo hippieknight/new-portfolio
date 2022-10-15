@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 import { SocialContact } from "../common/SocialContact";
 import { IsElementInViewport } from "../../utils/CheckElementInViewport";
 
-export const AboutMe = () => {
+const AboutMe = () => {
   useEffect(() => {
     const section = document.getElementById("about-me");
 
@@ -62,6 +62,8 @@ export const AboutMe = () => {
     </AboutWrapper>
   );
 };
+
+export default AboutMe;
 
 const selfInfomation = [
   {

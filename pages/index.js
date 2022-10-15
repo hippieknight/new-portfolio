@@ -1,7 +1,8 @@
 import styled from "@emotion/styled";
-import { AboutMe } from "../public/components/about/AboutMe";
-import { Introduction } from "../public/components/introduction/Introduction";
-import { MyResume } from "../public/components/resume/MyResume";
+import AboutMe from "../public/components/about/AboutMe";
+import Introduction from "../public/components/introduction/Introduction";
+import MyResume from "../public/components/resume/MyResume";
+import MySkills from "../public/components/skills/MySkills";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Introduction />
       <AboutMe />
       <MyResume />
+      <MySkills />
     </AppWrapper>
   );
 }

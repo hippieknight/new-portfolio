@@ -4,7 +4,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { IsElementInViewport } from "../../utils/CheckElementInViewport";
 import { GiSuitcase } from "react-icons/gi";
 
-export const MyResume = () => {
+const MyResume = () => {
   useEffect(() => {
     const section = document.getElementById("resume");
     const elements = section.children;
@@ -52,6 +52,8 @@ export const MyResume = () => {
     </ResumeWrapper>
   );
 };
+
+export default MyResume;
 
 const roadMap = [
   {
@@ -103,10 +105,6 @@ const SectionTitle = styled.h2`
 
 const ExperienceWrap = styled.div`
   margin-top: 40px;
-  height: 100px;
-
-  @media (min-width: 768px) {
-  }
 `;
 
 const Title = styled.p`

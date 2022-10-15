@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { SocialContact } from "../common/SocialContact";
 
-export const Introduction = () => {
+const Introduction = () => {
   return (
     <IntroductionWrapper>
       <Wrapper>
@@ -13,6 +13,8 @@ export const Introduction = () => {
     </IntroductionWrapper>
   );
 };
+
+export default Introduction;
 
 const IntroductionWrapper = styled.div`
   height: 100vh;
