@@ -21,7 +21,12 @@ export const SocialContact = () => {
       >
         <BsLinkedin />
       </a>
-      <a href="" type="content">
+      <a
+        href="https://nhathiepisme.blogspot.com/"
+        type="content"
+        target="_blank"
+        rel="noreferrer"
+      >
         <ImBlogger2 />
       </a>
     </Wrapper>

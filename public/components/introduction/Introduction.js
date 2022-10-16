@@ -43,6 +43,7 @@ const Avatar = styled.img`
   width: 100px;
   height: 100px;
   border-radius: 100px;
+  object-fit: cover;
 
   @media (min-width: 1024px) {
     width: 200px;

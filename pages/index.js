@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import AboutMe from "../public/components/about/AboutMe";
+import Footer from "../public/components/footer/Footer";
 import HireMe from "../public/components/hire-me/HireMe";
 import Introduction from "../public/components/introduction/Introduction";
 import MyResume from "../public/components/resume/MyResume";
@@ -17,6 +18,7 @@ export default function Home() {
       <MyServices />
       <MyWorks />
       <HireMe />
+      <Footer />
     </AppWrapper>
   );
 }

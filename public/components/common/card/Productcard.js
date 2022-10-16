@@ -56,6 +56,7 @@ const Img = styled.img`
 const Name = styled.p`
   font-size: 700;
   margin-bottom: 8px;
+  color: #000;
 `;
 
 const ViewButton = styled.a`
