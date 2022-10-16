@@ -9,10 +9,16 @@ export const SocialContact = () => {
         href="https://www.facebook.com/nhat.hiep.148"
         type="content"
         target="_blank"
+        rel="noreferrer"
       >
         <BsFacebook />
       </a>
-      <a href="https://www.linkedin.com/feed/" type="content" target="_blank">
+      <a
+        href="https://www.linkedin.com/feed/"
+        type="content"
+        target="_blank"
+        rel="noreferrer"
+      >
         <BsLinkedin />
       </a>
       <a href="" type="content">

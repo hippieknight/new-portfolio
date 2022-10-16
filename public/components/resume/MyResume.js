@@ -45,6 +45,7 @@ const MyResume = () => {
               <JobTitle>{item.position}</JobTitle>
               <Time>{item.time}</Time>
               <Company>{item.activity}</Company>
+              <Desc>{item.description}</Desc>
             </InfoWrap>
           </WorkWrap>
         ))}
@@ -60,6 +61,8 @@ const roadMap = [
     id: 1,
     position: "Student",
     activity: "VNUHCM - University of Science",
+    description:
+      "I studied 4 years about Infomation System in my university until I found out that I love working with UI than system.",
     time: "Sep 2018 - Nov 2022",
     icon: <FaGraduationCap />,
   },
@@ -67,6 +70,8 @@ const roadMap = [
     id: 2,
     position: "Front-end Developer",
     activity: "Spirit Labs",
+    description:
+      "My career started here. Everybody is helpful so I improved my skills day by day.",
     time: "Mar 2022 - Current",
     icon: <GiSuitcase />,
   },
@@ -74,6 +79,7 @@ const roadMap = [
 
 const ResumeWrapper = styled.div`
   padding: 40px 16px;
+  background-color: #f9f9f9;
 
   .animation-start {
     @keyframes slideUp {
@@ -122,7 +128,15 @@ const Title = styled.p`
 `;
 
 const InfoWrap = styled.div`
-  width: calc(50% - 24px - 22.5px);
+  p {
+    margin-bottom: 8px;
+  }
+  @media (max-width: 767px) {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    width: calc(50% - 24px - 22.5px);
+  }
 `;
 
 const WorkWrap = styled.div`
@@ -197,4 +211,14 @@ const JobTitle = styled.p`
 const Time = styled.p`
   color: #bfbfbf;
 `;
-const Company = styled.p``;
+const Company = styled.p`
+  font-weight: 700;
+`;
+const Desc = styled.p`
+  font-size: 14px;
+  opacity: 0.8;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
+`;

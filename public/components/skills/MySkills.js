@@ -64,9 +64,10 @@ const techStacks = [
   },
   {
     id: 4,
-    name: "TypeScript",
-    imgUrl: "../images/skills/ts.png",
+    name: "SASS",
+    imgUrl: "../images/skills/sass.png",
   },
+
   {
     id: 5,
     name: "Stitches",
@@ -79,8 +80,8 @@ const techStacks = [
   },
   {
     id: 7,
-    name: "SASS",
-    imgUrl: "../images/skills/sass.png",
+    name: "TypeScript",
+    imgUrl: "../images/skills/ts.png",
   },
   {
     id: 8,
@@ -117,16 +118,24 @@ const SubTitle = styled.p`
 const AnimationWrap1 = styled.div`
   position: relative;
   width: 100vw;
-  height: 120px;
+  height: 100px;
   margin-top: 40px;
   overflow: hidden;
+  @media (min-width: 1024px) {
+    height: 150px;
+    margin-top: 60px;
+  }
 `;
 const AnimationWrap2 = styled.div`
   position: relative;
   width: 100vw;
-  height: 120px;
+  height: 100px;
   margin-top: 40px;
   overflow: hidden;
+  @media (min-width: 1024px) {
+    height: 150px;
+    margin-top: 60px;
+  }
 `;
 
 const SkillWrapper = styled.div`
@@ -199,10 +208,15 @@ const SkillWrapper2 = styled.div`
 `;
 
 const Skill = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80px;
-  height: 80px;
   margin-right: 0;
   text-align: center;
+  @media (min-width: 1024px) {
+    width: 100px;
+  }
 `;
 const Image = styled.img`
   width: 70px;
@@ -210,5 +224,16 @@ const Image = styled.img`
   object-fit: cover;
   border-radius: 10px;
   background-color: #fff;
+
+  @media (min-width: 1024px) {
+    width: 100px;
+    height: 100px;
+  }
 `;
-const Name = styled.div``;
+const Name = styled.div`
+  font-size: 14px;
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }
+`;
