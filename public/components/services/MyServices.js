@@ -57,7 +57,7 @@ const dataServices = [
   {
     id: 3,
     title: "Web Backoffice Development",
-    description: "Web backoffice for managing web apps easily",
+    description: "Web backoffice for managing web apps easily.",
     icon: <MdManageAccounts />,
   },
   {

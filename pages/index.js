@@ -5,6 +5,7 @@ import Introduction from "../public/components/introduction/Introduction";
 import MyResume from "../public/components/resume/MyResume";
 import MyServices from "../public/components/services/MyServices";
 import MySkills from "../public/components/skills/MySkills";
+import MyWorks from "../public/components/work/MyWorks";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <MyResume />
       <MySkills />
       <MyServices />
+      <MyWorks />
       <HireMe />
     </AppWrapper>
   );

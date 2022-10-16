@@ -20,8 +20,7 @@ export default HireMe;
 const HireWrap = styled.div`
   padding: 40px 16px;
   text-align: center;
-  background-color: #ff9000;
-  color: #fff;
+  background-color: #f9f9f9;
 
   @media (min-width: 768px) {
     padding-left: 32px;
@@ -40,14 +39,16 @@ const SectionTitle = styled.h2`
 `;
 
 const Subtitle = styled.p`
-  max-width: 70%;
   margin: 0 auto 40px;
+  @media (min-width: 1024px) {
+    max-width: 70%;
+  }
 `;
 
 const ContactButton = styled.a`
   font-weight: bold;
-  background-color: #fff;
-  color: #000;
+  background-color: #ff9000;
+  color: #fff;
   padding: 12px 32px;
   border-radius: 50px;
   border: none;
