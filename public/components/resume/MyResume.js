@@ -80,6 +80,7 @@ const roadMap = [
 const ResumeWrapper = styled.div`
   padding: 40px 16px;
   background-color: #f9f9f9;
+  color: #000;
 
   .animation-start {
     @keyframes slideUp {

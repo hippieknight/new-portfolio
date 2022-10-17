@@ -21,6 +21,7 @@ const HireWrap = styled.div`
   padding: 40px 16px;
   text-align: center;
   background-color: #f9f9f9;
+  color: #000;
 
   @media (min-width: 768px) {
     padding-left: 32px;
