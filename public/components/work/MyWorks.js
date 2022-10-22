@@ -10,20 +10,34 @@ import "slick-carousel/slick/slick-theme.css";
 const myWorks = [
   {
     id: 1,
+    name: "Tech Vio",
+    time: "Nov 2022",
+    link: "https://tech-vio.vercel.app/",
+    imgUrl: "../images/works/techvio.PNG",
+  },
+  {
+    id: 2,
+    name: "My porfolio",
+    time: "Nov 2022",
+    link: "https://my-portfolio-hazel-nine.vercel.app/",
+    imgUrl: "../images/works/portfolio2.PNG",
+  },
+  {
+    id: 3,
     name: "My old portfolio",
     time: "Jan 2022",
     link: "https://nhathiep-portfolio.netlify.app/",
     imgUrl: "../images/works/portfolio.PNG",
   },
   {
-    id: 2,
+    id: 4,
     name: "Coffee shop",
     time: "Feb 2022",
     link: "https://nhathiep-isme.github.io/Coffee-shop/",
     imgUrl: "../images/works/coffee-shop.PNG",
   },
   {
-    id: 3,
+    id: 5,
     name: "Search Github users",
     time: "Feb 2022",
     link: "https://nhathiep-searchgithubuser.netlify.app/",
