@@ -8,7 +8,7 @@ const HireMe = () => {
         {`If you feel interested about me and you're looking for a candidate for
         the position of Frontend developer. You can contact me so that we have chance to work together ^^.`}
       </Subtitle>
-      <ContactButton href="mailto:hiepsimattroi1807@gmail.com">
+      <ContactButton href="mailto:tnhiep2k@gmail.com">
         Contact me
       </ContactButton>
     </HireWrap>
