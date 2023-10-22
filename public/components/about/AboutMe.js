@@ -42,14 +42,14 @@ const AboutMe = () => {
             from VNUHCM - University of Science with a bachelor degree of
             Information System with the GPA is 3.2/4. I'm a FrontEnd Developer
             and I'd like to work with Reactjs and Remix - a React-based
-            framework. I'd like styled components too and I also can work with
+            framework. I'd like styled components and Tailwind too and I also can work with
             responsive design.`}
             <br />
             <br />
-            {`I had worked for my ex-company for a year before deciding to
-            explore new challenges for myself. I've got more than a year of
+            {`I had worked for my ex-company for over a year and a half before deciding to
+            explore new challenges for myself. I've got about 2 years of
             experience in front-end development and I also got knowledge about
-            database.`}
+            database and joined some projects as a fullstack.`}
             <br />
             <br />
             In my free time, I like playing football or taking photos, sometimes
@@ -79,7 +79,7 @@ const selfInfomation = [
   {
     id: 3,
     label: "Email",
-    value: "hiepsimattroi1807@gmail.com",
+    value: "tnhiep2k@gmail.com",
   },
   {
     id: 4,
