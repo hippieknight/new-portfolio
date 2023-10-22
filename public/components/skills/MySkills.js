@@ -7,7 +7,7 @@ const MySkills = () => {
       <SubTitle>{`Let's see what tech stacks I can do.`}</SubTitle>
       <AnimationWrap1>
         <SkillWrapper className="primary">
-          {techStacks.slice(0, 4).map((item) => (
+          {techStacks.slice(0, 5).map((item) => (
             <Skill key={item.id}>
               <Image src={item.imgUrl} alt="skill-image" />
               <Name>{item.name}</Name>
@@ -15,7 +15,7 @@ const MySkills = () => {
           ))}
         </SkillWrapper>
         <SkillWrapper className="secondary">
-          {techStacks.slice(0, 4).map((item) => (
+          {techStacks.slice(0, 5).map((item) => (
             <Skill key={item.id}>
               <Image src={item.imgUrl} alt="skill-image" />
               <Name>{item.name}</Name>
@@ -25,7 +25,7 @@ const MySkills = () => {
       </AnimationWrap1>
       <AnimationWrap2>
         <SkillWrapper2 className="primary">
-          {techStacks.slice(4).map((item) => (
+          {techStacks.slice(5).map((item) => (
             <Skill key={item.id}>
               <Image src={item.imgUrl} alt="skill-image" />
               <Name>{item.name}</Name>
@@ -33,7 +33,7 @@ const MySkills = () => {
           ))}
         </SkillWrapper2>
         <SkillWrapper2 className="secondary">
-          {techStacks.slice(4).map((item) => (
+          {techStacks.slice(5).map((item) => (
             <Skill key={item.id}>
               <Image src={item.imgUrl} alt="skill-image" />
               <Name>{item.name}</Name>
@@ -87,6 +87,16 @@ const techStacks = [
     id: 8,
     name: "Nextjs",
     imgUrl: "../images/skills/next.png",
+  },
+  {
+    id: 9,
+    name: "Tailwind",
+    imgUrl: "../images/skills/tailwind.png",
+  },
+  {
+    id: 10,
+    name: "Prisma",
+    imgUrl: "../images/skills/prisma.png",
   },
 ];
 
