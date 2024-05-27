@@ -9,7 +9,7 @@ export default function ProductCard({ name, time, link, imgUrl }) {
         <p>{time}</p>
       </ImgWrap>
       <Name>{name}</Name>
-      <ViewButton href={link} type="content">
+      <ViewButton href={link} type="content" target="_blank" rel="noopener noreferrer" >
         View Detail
         <BsArrowRight />
       </ViewButton>
