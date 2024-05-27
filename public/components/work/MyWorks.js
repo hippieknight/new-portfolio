@@ -18,14 +18,14 @@ const myWorks = [
   {
     id: 2,
     name: "GovInsider",
-    time: "Mar 2022",
+    time: "Mar 2023",
     link: "https://govinsider.asia/intl-en",
     imgUrl: "../images/works/govinsider.PNG",
   },
   {
     id: 3,
     name: "Fleamint",
-    time: "Jul 2022",
+    time: "Jul 2023",
     link: "https://fleamint.com/",
     imgUrl: "../images/works/fleamint.PNG",
   },
