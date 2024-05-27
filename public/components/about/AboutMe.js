@@ -40,16 +40,16 @@ const AboutMe = () => {
           <p>
             {`I'm Nhat Hiep Tran, thanks for visiting my portfolio. I've graduated
             from VNUHCM - University of Science with a bachelor degree of
-            Information System with the GPA is 3.2/4. I'm a FrontEnd Developer
-            and I'd like to work with Reactjs and Remix - a React-based
-            framework. I'd like styled components and Tailwind too and I also can work with
-            responsive design.`}
+            Information System with the GPA is 3.2/4.`}{" "}
             <br />
             <br />
-            {`I had worked for my ex-company for over a year and a half before deciding to
-            explore new challenges for myself. I've got about 2 years of
-            experience in front-end development and I also got knowledge about
-            database and joined some projects as a fullstack.`}
+            {`I'm a FrontEnd Developer
+            and I'd like to work with Reactjs, Remixjs and Nextjs. I know Nestjs too. I can work with styled components and some UI libraries like Tailwind, RadixUI, AntD, Stitches. I like working with
+            responsive design so that my app can be multi-device compatible.`}
+            <br />
+            <br />
+            {`I've got more than 2 years of
+            experience in front-end development and about a year working as a fullstack developer.`}
             <br />
             <br />
             In my free time, I like playing football or taking photos, sometimes
