@@ -62,17 +62,26 @@ const roadMap = [
     position: "Student",
     activity: "VNUHCM - University of Science",
     description:
-      "I studied 4 years about Infomation System in my university until I found out that I love working with UI than system.",
+      "I studied 4 years about Information System in my university until I found out that I love working with UI than system. I graduated with the GPA is 3.2/4.",
     time: "Sep 2018 - Nov 2022",
     icon: <FaGraduationCap />,
   },
   {
     id: 2,
     position: "Front-end Developer",
-    activity: "Spirit Labs",
+    activity: "SENS VN",
     description:
-      "My career started here. Everybody is helpful so I improved my skills day by day.",
-    time: "Mar 2022 - Current",
+      "My career started here. Everybody is helpful so I improved my skills day by day. I joined many useful projects, had chance to access new technologies like Remixjs, Stitches, tRPC,... I worked here 2 years after decided to move on with new challenges.",
+    time: "Mar 2022 - Dec 2023",
+    icon: <GiSuitcase />,
+  },
+  {
+    id: 3,
+    position: "Front-end Developer",
+    activity: "WALA ICT VN",
+    description:
+      "In this company, I mainly work with Reactjs and Nextjs on CMS projects.",
+    time: "Dec 2023 - Current",
     icon: <GiSuitcase />,
   },
 ];
